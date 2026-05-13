@@ -1,14 +1,18 @@
 {
-  "name": "@whiskeysockets/libsignal-node",
+  "name": "@todnal/libsignal-node",
   "version": "2.0.1",
   "description": "TodNal Protocolo para gestión Node.js",
-  "repository": "WhiskeySockets/libsignal-node",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dev-FelixOfc/TodNal.git"
+  },
   "main": "index.js",
   "types": "index.d.ts",
   "keywords": [
     "signal",
     "whispersystems",
-    "crypto"
+    "crypto",
+    "todnal"
   ],
   "license": "GPL-3.0",
   "dependencies": {
